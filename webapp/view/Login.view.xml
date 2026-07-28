@@ -1,0 +1,97 @@
+<mvc:View
+    controllerName="loginpage.controller.Login"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+        <!-- <Page title="Royal Enfield">
+
+            <content>
+
+                <VBox
+                    width="300px"
+                    alignItems="Center"
+                    justifyContent="Center"
+                    class="sapUiLargeMargin">
+
+                    <Input
+                        id="username"
+                        placeholder="Username"/>
+
+                    <Input
+                        id="password"
+                        type="Password"
+                        placeholder="Password"
+                        class="sapUiSmallMarginTop"/>
+
+                    <Button
+                        text="Login"
+                        type="Emphasized"
+                        press=".onLogin"
+                        class="sapUiMediumMarginTop"/>
+
+                    <Link
+                        text="New User? Register"
+                        press=".onRegister"
+                        class="sapUiSmallMarginTop"/>
+                </VBox>
+
+            </content>
+
+        </Page>  -->
+
+         <Page title="Royal Enfield ❯❯❯❯">
+
+    <content>
+
+        <VBox
+            justifyContent="Center"
+            alignItems="Center"
+            height="100%">
+
+            <Panel width="380px">
+
+                <headerToolbar>
+                    <Toolbar>
+                        <Title text="Welcome Back"/>
+                    </Toolbar>
+                </headerToolbar>
+
+                <content>
+
+                    <VBox class="sapUiMediumMargin">
+                    
+                        <Input
+                            id="loginusername"
+                            placeholder="Username"/>
+
+                        <Input
+                            id="loginpassword"
+                            type="Password"
+                            placeholder="Password"
+                            class="sapUiSmallMarginTop"/>
+
+                        <Button
+                            text="Login"
+                            type="Emphasized"
+                            width="100%"
+                            press=".onLogin"
+                            class="sapUiMediumMarginTop"/>
+
+                        <Link
+                            text="New User? Register"
+                            press=".onRegister"
+                            class="sapUiSmallMarginTop"/>
+
+                    </VBox>
+
+                </content>
+
+            </Panel>
+
+        </VBox>
+
+    </content>
+
+</Page> 
+
+</mvc:View>
