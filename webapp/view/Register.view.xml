@@ -18,10 +18,8 @@
         class="sapUiLargeMargin">
 
         <!-- Left Side - Carousel -->
-        <Carousel
-            width="730px"
-            height="700px"
-            class="sapUiMediumMarginEnd">
+        <Carousel width="730px" height="700px" loop="true"
+            class="sapUiMediumMarginEnd" >
 
             <Image
                 src="images/re1.jpg"

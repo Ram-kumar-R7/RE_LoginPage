@@ -7,9 +7,7 @@ sap.ui.define([
     return Controller.extend("loginpage.controller.Register", {
 
         onBack() {
-            this.getOwnerComponent()
-                .getRouter()
-                .navTo("login");
+            this.getOwnerComponent().getRouter().navTo("login");
         },
 
         onCreate() {
@@ -49,3 +47,6 @@ sap.ui.define([
     });
 
 });
+
+
+
